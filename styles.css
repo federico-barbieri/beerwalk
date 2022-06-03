@@ -125,9 +125,9 @@ transform: translateX(-1rem);
 .nav-logo{
     display: inline-block;
     width: 20vw;
-    max-height: 40vh;
-    transform: scale(0.5);
-    
+    max-height: 20vh;
+    transform: scale(1);
+    margin-top: 1.5rem;
     z-index: 100;
 }
 
@@ -153,6 +153,11 @@ transform: translateX(-1rem);
   .fedebarbieri-h1{
     padding-top: 5rem;
   }
+  .nav-logo{
+
+    margin-top: 3rem;
+
+}
 }
 
 .span-fede{
@@ -214,8 +219,9 @@ transform: translateX(-1rem);
   }
   .nav-logo{
     margin-left: 3rem;
-    margin-top: 2rem;
+      margin-top: 5rem;
   }
+
   .span-fede{
     margin: 6rem auto 0rem auto;
     font-size: 1.2rem;
@@ -253,9 +259,8 @@ transform: translateX(-1rem);
     padding-top: 5rem;
   }
   .nav-logo{
-    display: inline-block;
-    z-index: 100;
-    margin-top: 3rem;
+    margin-left: 3rem;
+      margin-top: 5rem;
   }
 }
 
@@ -1060,7 +1065,6 @@ cursor: pointer;
     text-align: center;
     grid-area: footer;
     background-color:white;
-    
   }
   
   .footer-h4{
