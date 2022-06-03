@@ -13,14 +13,16 @@ hamburger.addEventListener('click', () => {
 })
 
 // clicking the nav li means we have to make the burger menu disappear
+// if the width is bigger than 800px then the whole nav disappears so fix it
 
 // about li 
 
 let aboutLi = document.querySelector('.about-li');
 
 aboutLi.addEventListener('click', () => {
+    if (innerWidth < 800){
     ulNav.classList.toggle('open');
-    
+    }
 })
 
 
@@ -29,8 +31,9 @@ aboutLi.addEventListener('click', () => {
 let copyLi = document.querySelector('.copywriting-li');
 
 copyLi.addEventListener('click', () => {
+    if (innerWidth < 800){
     ulNav.classList.toggle('open');
-    
+    }
 })
 
 // content li 
@@ -38,8 +41,9 @@ copyLi.addEventListener('click', () => {
 let contentLi = document.querySelector('.content-li');
 
 contentLi.addEventListener('click', () => {
+    if (innerWidth < 800){
     ulNav.classList.toggle('open');
-    
+    } 
 })
 
 // touch li 
@@ -47,8 +51,10 @@ contentLi.addEventListener('click', () => {
 let touchLi = document.querySelector('.touch-li');
 
 touchLi.addEventListener('click', () => {
-    ulNav.classList.toggle('open');
     
+    if (innerWidth < 800){
+    ulNav.classList.toggle('open');
+    }
 })
 
 
